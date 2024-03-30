@@ -31,5 +31,5 @@ services:
       - ${GRAFANA_PORT}:3000
 
 volumes:
-  grafana-storage:
-  influxdb-storage:
+  grafana-storage: /mnt/docker-storage/grafana/var/lib/grafana
+  influxdb-storage: /mnt/docker-storage/influxdb2/var/lib/influxdb2
